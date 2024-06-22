@@ -25,7 +25,7 @@ This is a simple 2D Pong game implemented in Python using the Turtle graphics li
    ```
 3. Run the game:
    ```
-   python pong_game.py
+   python main.py
    ```
 
 ## How to Play
