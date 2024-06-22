@@ -7,14 +7,14 @@ scr.bgcolor('black')
 scr.title('Pong Game')
 scr.tracer(0)
 
-r_paddle = Paddle(350)
-l_paddle = Paddle(-350)
+r_paddle = Paddle((350,0))
+l_paddle = Paddle((-350,0))
 
 scr.listen()
 scr.onkey(r_paddle.paddle_up,'Up')
 scr.onkey(r_paddle.paddle_down,'Down')
-scr.onkey(l_paddle.paddle_up,'Up')
-scr.onkey(l_paddle.paddle_down,'Down')
+scr.onkey(l_paddle.paddle_up,'w')
+scr.onkey(l_paddle.paddle_down,'s')
 
 
 
